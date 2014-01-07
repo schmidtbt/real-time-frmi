@@ -1,0 +1,15 @@
+
+This is a program to query the directory structure using inotify linux commands.
+
+Here we are specifically looking at the creation of new files within the directory this program is run in. You add an event listner and then loop for number of events that you'd like to watch for. 
+
+Can also look for other events such as deletion or modifications. 
+
+This will be the first stage in the pipeline.
+
+
+This address was good:
+http://www.ibm.com/developerworks/linux/library/l-ubuntu-inotify/
+
+
+
